@@ -84,3 +84,53 @@ h1 {
 #special h1 {
         font-size: 25px;
       }
+
+/* Navbar container styling */
+.navbar {
+  background-color: #89CFF0; /* Baby blue background */
+  padding: 20px 0; /* Space above and below the navbar */
+  text-align: center;
+}
+
+/* Styling the logo link */
+.navbar .logo a {
+  color: #800080; /* Purple color for the logo */
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Remove bullets and center-align the nav list */
+.navbar .nav-list {
+  list-style-type: none; /* Removes bullet points */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Centers items horizontally */
+}
+
+/* Space out the nav items */
+.navbar .nav-list li {
+  margin: 0 15px; /* Space between each link */
+}
+
+/* Link styling */
+.navbar .nav-list li a {
+  text-decoration: none; /* Remove underline */
+  color: #800080; /* Purple text color */
+  font-weight: bold;
+}
+
+/* Hover effect for links */
+.navbar .nav-list li a:hover {
+  color: #4B0082; /* Darker purple on hover */
+  text-decoration: underline;
+}
+
+/* General styling for the page title */
+.page-title {
+  color: #333;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 20px;
+}
