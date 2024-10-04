@@ -80,3 +80,12 @@ h1 {
 #special h1 {
         font-size: 25px;
       }
+body {
+        background: var(--cg-grey);
+        position: relative;
+        min-height: 100vh;
+        padding: 0;
+        margin: 0;
+        font-family: monospace;
+      }
+      
