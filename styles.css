@@ -149,11 +149,11 @@ input:focus {
   color: #333;
   font-size: 32px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 .about-image img{
-  width: 50%;
-  height: 50%;
+  width: 75%;
+  height: 75%;
   display: block;
   border: 2px solid gray;
   border-radius: 10px;
