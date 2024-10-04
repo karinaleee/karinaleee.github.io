@@ -14,7 +14,7 @@ body {
     height: 100vh;    
     padding-top: 70px;
   }
-  .main {
+  main {
     flex: 1; 
     padding: 20px;
   }
@@ -22,7 +22,8 @@ body {
 p {
     font-family: "Times New Roman", Times, serif;
     font-weight: bold;
-    font-size: 18px;
+    text-align: center;
+    font-size: 11px;
     color: rgb(15, 15, 90);
   }
 
@@ -42,6 +43,7 @@ p.title {
     font-style: italic;
     font-weight: 500;
     font-size: 20px;
+    text-align: center;
     }
     
 h1#main-title {
@@ -136,8 +138,6 @@ input:focus {
 }
 
 
-
-
 /* General styling for the page title */
 .page-title {
   color: #333;
@@ -154,7 +154,7 @@ input:focus {
 }
 
 footer{
-  color: rgb(204, 175, 175);
+  color: rgb(170, 95, 95);
   padding: 10px 0;
-  text-align: center; 
+ 
 }
