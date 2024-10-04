@@ -42,7 +42,7 @@ h1 + p {
         font-weight: bold;
     }
 a:link {
-    color: blue;
+    color: rgb(144, 144, 244);
     text-decoration: underline;
     }
     
@@ -63,7 +63,7 @@ input:focus {
         border: 1px solid #aaa;
       }
 p {
-        color: rgb(113, 113, 216);
+        color: rgb(15, 15, 90);
       }
       
 h1 {
