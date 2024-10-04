@@ -96,7 +96,7 @@ input:focus {
 /* Navbar container styling */
 .navbar {
   background-color: #89CFF0; /* Baby blue background */
-  padding: 20px 0; /* Space above and below the navbar */
+  padding: 20px 5px; /* Space above and below the navbar */
   text-align: center;
   position: fixed;
   top: 0;
@@ -146,6 +146,9 @@ input:focus {
   font-size: 32px;
   text-align: center;
   margin-top: 5px;
+}
+.entry-title { 
+  text-align: center;
 }
 .about-image img{
   width: 75%;
