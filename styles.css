@@ -5,12 +5,10 @@ body {
     background-color: #89CFF0;
     position: relative;
     min-height: 100vh;
-    padding: 0;
     margin: 0;
     font-family: monospace; 
-    display: flex;
-    justify-content: center; /* Horizontal center */
-    align-items: center;     /* Vertical center */   
+    display: flex;  
+    flex-direction: column;
     padding-top: 70px;
   }
   main {
@@ -103,7 +101,6 @@ input:focus {
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 20px 0; /* Space above and below the navbar */
   z-index: 1; /* Ensures the navbar stays above other content */
 }
 
@@ -163,5 +160,6 @@ footer{
   padding: 10px 0;
   text-align: center; 
   position:relative;
+  margin-top: auto;
  
 }
