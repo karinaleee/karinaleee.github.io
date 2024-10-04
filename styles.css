@@ -7,7 +7,11 @@ body {
     min-height: 100vh;
     padding: 0;
     margin: 0;
-    font-family: monospace;  
+    font-family: monospace; 
+    display: flex;
+    justify-content: center; /* Horizontal center */
+    align-items: center;     /* Vertical center */
+    height: 100vh;    
   }
 
 p {
@@ -17,7 +21,7 @@ p {
     color: rgb(15, 15, 90);
   }
 
-.course-title
+
 
 .class {
     color: red;
@@ -135,4 +139,6 @@ input:focus {
 .about-image img{
   width: 50%;
   height: 50%;
+  display: block;
 }
+
