@@ -1,9 +1,13 @@
-selector {
-    property: value;
-  }
+
 
 body {
     font-size: 20px;
+    background-color: #89CFF0;
+    position: relative;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
   }
 
 p {
@@ -80,16 +84,3 @@ h1 {
 #special h1 {
         font-size: 25px;
       }
-body {
-        background: var(--cg-grey);
-        position: relative;
-        min-height: 100vh;
-        padding: 0;
-        margin: 0;
-        font-family: monospace;
-      }
-      
-body.index.html {
-        background-color: #89CFF0; /* Baby blue color */
-    }
-    
