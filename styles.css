@@ -1,0 +1,82 @@
+selector {
+    property: value;
+  }
+
+body {
+    font-size: 20px;
+  }
+
+p {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+.class {
+    color: red;
+    background-color: blue;
+  }
+
+#id {
+    color: green;
+    background-color: yellow;
+    }
+
+p.title {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    }
+    
+h1#main-title {
+    color: red;
+    background-color: blue;
+    }
+
+h1 + p {
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-weight: bold;
+    }
+a:link {
+    color: blue;
+    text-decoration: underline;
+    }
+    
+a:visited {
+    color: purple;
+    }
+
+a:active {
+        color: red;
+      }
+      
+a:hover {
+        color: blue;
+        text-decoration: none;
+      }
+      
+input:focus {
+        border: 1px solid #aaa;
+      }
+p {
+        color: rgb(113, 113, 216);
+      }
+      
+h1 {
+        color: #ae2424;
+      }
+      
+.titles {
+        color: #176844;
+      }
+#special {
+        color: #000;
+      }
+      
+#special p {
+        font-weight: bold;
+      }
+      
+#special h1 {
+        font-size: 25px;
+      }
