@@ -22,14 +22,13 @@ p {
     font-family: "Times New Roman", Times, serif;
     font-weight: bold;
     text-align: center;
-    font-size: 11px;
+    font-size: 14px;
     color: rgb(15, 15, 90);
   }
 ul {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
-  text-align: center;
-  font-size: 11px;
+  font-size: 14px;
   color: rgb(15, 15, 90);
 }
 
@@ -163,5 +162,6 @@ footer{
   color: rgb(170, 95, 95);
   padding: 10px 0;
   text-align: center; 
+  position:relative;
  
 }
