@@ -7,14 +7,17 @@ body {
     min-height: 100vh;
     padding: 0;
     margin: 0;
-    font-family: monospace;
+    font-family: monospace;  
   }
 
 p {
     font-family: "Times New Roman", Times, serif;
     font-weight: bold;
     font-size: 18px;
+    color: rgb(15, 15, 90);
   }
+
+.course-title
 
 .class {
     color: red;
@@ -40,6 +43,7 @@ h1#main-title {
 h1 + p {
         font-family: "Lucida Console", "Courier New", monospace;
         font-weight: bold;
+        color: #ae2424;
     }
 a:link {
     color: rgb(144, 144, 244);
@@ -62,13 +66,7 @@ a:hover {
 input:focus {
         border: 1px solid #aaa;
       }
-p {
-        color: rgb(15, 15, 90);
-      }
       
-h1 {
-        color: #ae2424;
-      }
       
 .titles {
         color: #176844;
@@ -133,4 +131,8 @@ h1 {
   font-size: 32px;
   text-align: center;
   margin-top: 20px;
+}
+.about-image img{
+  width: 50%;
+  height: 50%;
 }
