@@ -29,6 +29,12 @@ ul {
   font-weight: bold;
   font-size: 14px;
   color: rgb(15, 15, 90);
+  padding-left: 40px;
+  list-style-position: inside;
+}
+
+li{
+  margin-left: 0;
 }
 
 
