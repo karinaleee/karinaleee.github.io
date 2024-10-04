@@ -44,11 +44,7 @@ h1#main-title {
     background-color: blue;
     }
 
-h1 + p {
-        font-family: "Lucida Console", "Courier New", monospace;
-        font-weight: bold;
-        color: #ae2424;
-    }
+    
 a:link {
     color: rgb(144, 144, 244);
     text-decoration: underline;
@@ -140,5 +136,7 @@ input:focus {
   width: 50%;
   height: 50%;
   display: block;
+  border: 2px solid gray;
+  border-radius: 10px;
 }
 
