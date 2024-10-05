@@ -187,6 +187,10 @@ input:focus {
   border-color: rgb(251, 231, 231);
 }
 
+.project{
+  text-align: center;
+}
+
 footer{
   color: rgb(170, 95, 95);
   padding: 10px 0;
