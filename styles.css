@@ -190,3 +190,51 @@ footer{
 form{
   text-align: center;
 }
+.skills-list{
+   list-style-type: disc; /* Keep bullet points */
+   padding-left: 0; /* Remove default padding */
+   margin-left: 0; /* Remove default margin */
+   text-align: center; /* Centers the text */
+}
+
+.activities-list{
+    list-style-type: disc; /* Keep bullet points */
+    padding-left: 0; /* Remove default padding */
+    margin-left: 0; /* Remove default margin */
+    text-align: center; /* Centers the text */
+
+}
+
+.course-list{
+    list-style-type: disc; /* Keep bullet points */
+    padding-left: 0; /* Remove default padding */
+    margin-left: 0; /* Remove default margin */
+    text-align: center; /* Centers the text */
+
+}
+
+.course-list li{
+ 
+    display: inline-block; /* Treat each list item like an inline block */
+    text-align: left; /* Align text inside each list item to the left */
+    width: auto; /* Adjust as needed or specify a width to control the list width */
+    margin-left: 20px; /* Optional: adjust the bullet point spacing */
+}
+
+
+.acitivites-list li{
+ 
+    display: inline-block; /* Treat each list item like an inline block */
+    text-align: left; /* Align text inside each list item to the left */
+    width: auto; /* Adjust as needed or specify a width to control the list width */
+    margin-left: 20px; /* Optional: adjust the bullet point spacing */
+
+}
+
+.skills-list li{
+    display: inline-block; /* Treat each list item like an inline block */
+    text-align: left; /* Align text inside each list item to the left */
+    width: auto; /* Adjust as needed or specify a width to control the list width */
+    margin-left: 20px; /* Optional: adjust the bullet point spacing */
+
+}
