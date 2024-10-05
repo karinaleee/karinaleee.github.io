@@ -2,7 +2,7 @@
 
 body {
     font-size: 20px;
-    background-color: #89CFF0;
+    background-color: #66a1bc;
     position: relative;
     min-height: 100vh;
     margin: 0;
@@ -24,12 +24,18 @@ p {
     font-size: 14px;
     color: rgb(15, 15, 90);
   }
+  .section-title{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(15, 15, 90);
+  }
 ul {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   font-size: 14px;
   color: rgb(15, 15, 90);
-  padding-left: 40px;
+  padding-left: 80px;
   list-style-position: inside;
 }
 
@@ -152,7 +158,7 @@ input:focus {
   color: #333;
   font-size: 32px;
   text-align: center;
-  margin-top: 5px;
+  margin-top: 20px;
 }
 .entry-title { 
   text-align: center;
@@ -173,4 +179,7 @@ footer{
   position:relative;
   margin-top: auto;
  
+}
+.contact-form{
+  text-align: center;
 }
