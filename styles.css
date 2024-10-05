@@ -178,8 +178,8 @@ input:focus {
   clip-path: circle(50% at 50% 50%);
 }
 .project img{
-  width: 75%;
-  height: 75%;
+  width: 50%;
+  height: auto;
   display: block;
   border: 10px;
   border-width: 5px;
