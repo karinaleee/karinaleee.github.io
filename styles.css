@@ -168,8 +168,8 @@ input:focus {
   text-align: center;
 }
 .about-image img{
-  width: 100%;
-  height: auto;
+  width: 75%;
+  height: 75%;
   display: block;
   border: 2px solid gray;
   border-radius: 10px;
