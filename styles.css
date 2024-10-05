@@ -175,6 +175,7 @@ input:focus {
   border-radius: 10px;
   border-style:double;
   margin: 0 auto;
+  clip-path: circle(50% at 50% 50%);
 }
 .project img{
   width: 75%;
