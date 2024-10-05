@@ -195,6 +195,7 @@ input:focus {
 footer{
   color: rgb(170, 95, 95);
   padding: 10px 0;
+  font-size: 11px;
   text-align: center; 
   position:relative;
   margin-top: auto;
