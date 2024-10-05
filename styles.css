@@ -180,10 +180,11 @@ input:focus {
   width: 75%;
   height: 75%;
   display: block;
-  border: 10px solid rgb(251, 231, 231);
-  border-radius: 15px;
+  border: 10px;
+  border-width: 5px;
   border-style:groove;
   margin: 0 auto;
+  border-color: rgb(251, 231, 231);
 }
 
 footer{
